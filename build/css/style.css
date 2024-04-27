@@ -8,12 +8,19 @@
     padding: 0;
   }
   
-  .mdl-layout__content {
+.mdl-layout__content {
     padding-left: 15pt;
     padding-right: 15pt;
     padding-top: 15pt;
   }
   
-  .mdl-textfield__error {
+.mdl-textfield__error {
     color: black;
+  }
+
+  .right-image {
+    height: auto;
+    width: 250px;
+    float: right;
+    margin-top: 5cm;
   }
