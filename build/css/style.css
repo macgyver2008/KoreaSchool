@@ -40,3 +40,7 @@
   body {
     background-color: green;
   }
+
+.animation-div {
+    opacity: 0;
+}
