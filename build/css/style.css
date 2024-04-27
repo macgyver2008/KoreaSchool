@@ -17,29 +17,6 @@
   .mdl-textfield__error {
     color: black;
   }
-  
-  .page-content {
-    color: white;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.25rem;
-  }
-  
-  .page-content-answer {
-    color: rgb(0 0 0);
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.25rem;
-  }
-  
-  .right-image {
-    height: auto;
-    width: 250px;
-    float: right;
-    margin-top: 5cm;
-  }
-  
-  body {
-    background-color: green;
-  }
 
 .animation-div {
     opacity: 0;
