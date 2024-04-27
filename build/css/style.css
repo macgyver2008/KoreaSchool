@@ -21,3 +21,10 @@
 .animation-div {
     opacity: 0;
 }
+
+.right-image {
+  height: auto;
+  width: 250px;
+  float: right;
+  margin-top: 5cm;
+}
