@@ -2,6 +2,16 @@
 * Created on: Apr 2024
 * This file contains the CSS for index.html
 */
+@font-face {
+  font-family: 'TheJamsil5Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+p {
+  font-family: 'TheJamsil5Bold';
+}
 
 .mdl-layout__header-row {
   justify-content: center;
@@ -37,3 +47,7 @@
   margin-top: 10cm;
 }
 
+.main-info {
+  position: relative;
+  text-align: center;
+}
