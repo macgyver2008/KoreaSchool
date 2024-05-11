@@ -43,10 +43,9 @@ p {
 }
 
 .right-image {
-  height: auto;
-  width: 250px;
+  position: relative;
   float: right;
-  margin-top: 10cm;
+  right: inherit;
 }
 
 .main-info {
