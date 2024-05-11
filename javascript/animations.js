@@ -18,6 +18,9 @@ function prevSlide() {
 }
  
 document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById("slide").style.opacity=50% 
     showSlide(currentSlide);
-    setInterval(nextSlide, 3000); // 3초마다 자동 슬라이드                
+    setInterval(nextSlide, 6000); // 6초마다 자동 슬라이드  
+    document.getElementById("slide").style.opacity=100% 
+
 });
