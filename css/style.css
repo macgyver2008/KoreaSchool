@@ -74,11 +74,16 @@ p {
   width: 90%;
 }
 
+.mybottom {
+  bo
+}
+
 .slider {
   width: 100%;                                 
   overflow: hidden;
   position: relative;
 }
+
 .slide {
   float: left;
   width: 100%;
