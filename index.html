@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <!--Made by Gabriel and Yoochan-->
-<html>
+<!-- index-kr꺼 -->
+<html lang="ko">
 <head>
   <meta charset="utf-8" />
   <meta name="description" content="Ottawa Korean School" />
@@ -17,16 +18,32 @@
 <body>
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <script src="./javascript/script.js"></script>
+  <!-- <script>
+    //Animation js for html
+let observer  = new IntersectionObserver((e)=>{
+    e.forEach((ani) => {
+        if(ani.isIntersecting) {
+        ani.target.style.opacity = 1;
+    }
+    });
+})
+let div = document.querySelectorAll('div')
+observer.observe(div[0])
+observer.observe(div[1])
+observer.observe(div[2])
+observer.observe(div[3])
+  </script> -->
+
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <style>
       .demo-layout-transparent {
         background: url('./image.jpg') center / cover;
       }
-      .demo-layout-transparent .mdl-layout__header,
+      .demo-layout-transparent .mdl-layout__header{background-color: black;}
       .demo-layout-transparent .mdl-layout__drawer-button {
         /* This background is dark, so we set text to white. Use 87% black instead if
            your background is light. */
-        color: black;
+        color: snow;
       }
       </style>
       
