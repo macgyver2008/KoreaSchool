@@ -75,7 +75,9 @@ p {
 }
 
 .mybottom {
-  bo
+  position: inherit;
+  bottom: auto;
+  
 }
 
 .slider {
