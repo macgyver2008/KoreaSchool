@@ -55,7 +55,8 @@ p {
   float: left;
   text-align: left;
   left: 5%;
-  margin-left: auto;
+  width: 50%;
+  height: auto;
 }
 
 .main-info {
