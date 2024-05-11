@@ -19,11 +19,6 @@ function prevSlide() {
  
 document.addEventListener('DOMContentLoaded', () => {
     showSlide(currentSlide);
-    document.getElementById("slide").style.opacity=("10%")
-    for(i=0;i>=10;1++) {
-        document.getElementById("slide").style.opacity=(String(i*10)+"%")
-        setInterval(nextSlide, 100)
-    }
     setInterval(nextSlide, 6000); // 6초마다 자동 슬라이드 
 
 
